@@ -7,12 +7,17 @@ https://github.com/BDEMAY0/FFF/wiki
 
 ### Installation 
 git clone https://github.com/BDEMAY0/FFF.git
+
 cd FFF
+
 git clone https://github.com/volatilityfoundation/volatility3.git
+
 python -m venv venv
 
 Activez l'environnement virtuel :
+
 > Windows: .\venv\Scripts\activate
+> 
 > Linux/Mac: source venv/bin/activate
 
 pip3 install -r requirements.txt volatility3/requirements.txt && pip3 install -r requirements.txt
