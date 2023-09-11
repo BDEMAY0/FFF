@@ -1,5 +1,5 @@
 import threading
-from ProcessPlugin import ProcessPlugin
+from Package_Windows.ProcessPlugin import ProcessPlugin
 
 class ManagePlugin:
     def __init__(self, args):
