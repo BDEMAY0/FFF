@@ -1,6 +1,6 @@
 import argparse
-from FFF.Package_Windows.ManagePlugin import ManagePlugin
-from FFF.Package_Windows.ManageRegister import ManageRegister
+from Package_Windows.ManagePlugin import ManagePlugin
+from Package_Windows.ManageRegister import ManageRegister
 
 def main():
     # Initialisation du parser d'arguments
