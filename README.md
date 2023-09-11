@@ -7,9 +7,9 @@ https://github.com/BDEMAY0/FFF/wiki
 
 ### Installation 
 git clone https://github.com/BDEMAY0/FFF.git
-
+\
 cd FFF
-
+\
 git clone https://github.com/volatilityfoundation/volatility3.git
 
 python -m venv venv
