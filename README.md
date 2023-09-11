@@ -20,7 +20,10 @@ Activez l'environnement virtuel :
 > 
 > Linux/Mac: source venv/bin/activate
 
-pip3 install -r requirements.txt volatility3/requirements.txt && pip3 install -r requirements.txt
+pip3 install -r requirements.txt
+cd volatility3
+pip3 install -r requirements.txt volatility3/requirements.txt 
+cd ..
 
 python main.py -f dump.dmp
 
