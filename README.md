@@ -37,5 +37,5 @@ options :
                         Volatility. Par défaut: 'volatility3-develop' \
   > -os OSTYPE, --ostype OSTYPE
                         Le type du système d'exploitation: 'windows' ou
-                        'linux'.' \
+                        'linux'.' 
 
