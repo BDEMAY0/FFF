@@ -31,11 +31,11 @@ cd ..
 python main.py -f dump.dmp
 
 options : 
-  -h, --help            show this help message and exit
-  -f FILE, --file FILE  Chemin vers le fichier dump à analyser.
+  -h, --help            show this help message and exit \
+  -f FILE, --file FILE  Chemin vers le fichier dump à analyser. \
   -p PATH, --path PATH  Chemin vers le dossier qui contient vol.py de
-                        Volatility. Par défaut: 'volatility3-develop'
+                        Volatility. Par défaut: 'volatility3-develop' \
   -os OSTYPE, --ostype OSTYPE
                         Le type du système d'exploitation: 'windows' ou
-                        'linux'.'
+                        'linux'.' \
 
