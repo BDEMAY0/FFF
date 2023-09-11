@@ -1,10 +1,10 @@
 import threading
-from ProcessRegister import ProcessRegister
+from Package_Windows.ProcessRegister import ProcessRegister
 
 class ManageRegister:
     def __init__(self, args):
         self.args = args
-        self.register = ["'...'"]  # Liste des clés de registre
+        self.register = ["'...'"]  # Liste des clÃ©s de registre
 
     def execute(self):
         start_thread = ProcessRegister(self.args.file, self.args.path)
